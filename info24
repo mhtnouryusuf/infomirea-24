@@ -1,1 +1,47 @@
-# 
+#include <iostream>
+#include <cmath>
+usings namespace std;
+
+int main ()
+{ 
+long long a, b : 
+char op;
+cin >> a >> op>> b; 
+switch (op) { 
+    case '+' 
+     cout << a + b ;
+     case '-'
+     cout << a - b;
+    
+     case '*'
+     cout << a * b; 
+     break ;
+     case '/' 
+     if (b ==0) 
+     cout <<"division by zero";
+}
+  elise {
+    cout << a/b ;
+  }
+  break 
+  default:
+  cout << " unknown operation";
+}
+  return 0;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+}
